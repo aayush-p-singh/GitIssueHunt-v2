@@ -8,6 +8,9 @@ import {
 import { Heading } from "@web/components/Heading";
 
 const Dashboard = () => {
+  const trackedRepos = Math.floor(Math.random() * 10) + 1;
+const savedIssues = Math.floor(Math.random() * 10) + 1;
+const starredIssues = Math.floor(Math.random() * 10) + 1;
   return (
     <div className="w-full flex flex-col gap-10">
       <Heading
